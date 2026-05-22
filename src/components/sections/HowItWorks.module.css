@@ -85,3 +85,68 @@
     display: none;
   }
 }
+
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 20px;
+  }
+  .title {
+    font-size: clamp(24px, 3.5vw, 32px);
+    margin-bottom: 40px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 1px;
+  }
+  .card {
+    padding: 28px 20px;
+  }
+  .stepNum {
+    font-size: 10px;
+    margin-bottom: 16px;
+  }
+  .iconWrap {
+    width: 44px;
+    height: 44px;
+    margin-bottom: 12px;
+  }
+  .cardTitle {
+    font-size: 15px;
+    margin-bottom: 6px;
+  }
+  .cardDesc {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: 50px 16px;
+  }
+  .title {
+    font-size: clamp(20px, 2.5vw, 26px);
+    margin-bottom: 32px;
+  }
+  .grid {
+    gap: 1px;
+  }
+  .card {
+    padding: 24px 16px;
+  }
+  .stepNum {
+    font-size: 9px;
+    margin-bottom: 14px;
+  }
+  .iconWrap {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  .cardTitle {
+    font-size: 14px;
+  }
+  .cardDesc {
+    font-size: 11px;
+    line-height: 1.5;
+  }
+}

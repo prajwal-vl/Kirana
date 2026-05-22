@@ -55,3 +55,44 @@
     align-items: flex-start;
   }
 }
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 32px 20px;
+    gap: 16px;
+  }
+  .logo {
+    font-size: 16px;
+  }
+  .links {
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+  }
+  .link {
+    font-size: 12px;
+  }
+  .copy {
+    font-size: 12px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 28px 16px;
+    gap: 12px;
+  }
+  .logo {
+    font-size: 14px;
+  }
+  .links {
+    gap: 10px;
+  }
+  .link {
+    font-size: 11px;
+  }
+  .copy {
+    font-size: 11px;
+  }
+}

@@ -92,3 +92,80 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 20px;
+  }
+  .title {
+    font-size: clamp(24px, 3.5vw, 32px);
+    margin-bottom: 40px;
+  }
+  .grid {
+    gap: 20px;
+  }
+  .card {
+    padding: 24px;
+  }
+  .quote {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .quote::before {
+    font-size: 36px;
+  }
+  .avatar {
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .name {
+    font-size: 13px;
+  }
+  .role {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: 50px 16px;
+  }
+  .title {
+    font-size: clamp(20px, 2.5vw, 26px);
+    margin-bottom: 32px;
+  }
+  .grid {
+    gap: 16px;
+  }
+  .card {
+    padding: 20px;
+    border-radius: 16px;
+  }
+  .quote {
+    font-size: 13px;
+    margin-bottom: 16px;
+    line-height: 1.6;
+  }
+  .quote::before {
+    font-size: 32px;
+    vertical-align: -14px;
+  }
+  .person {
+    gap: 10px;
+  }
+  .avatar {
+    width: 36px;
+    height: 36px;
+    font-size: 12px;
+  }
+  .name {
+    font-size: 12px;
+  }
+  .role {
+    font-size: 10px;
+  }
+  .stars {
+    gap: 1px;
+  }
+}

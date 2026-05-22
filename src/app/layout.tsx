@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   description:
     'AI-powered billing and analytics platform for Indian kirana stores. Scan barcodes, generate bills, track credit accounts, and get monthly insights.',
   keywords: ['kirana', 'billing', 'grocery store', 'POS', 'India', 'GST billing'],
+  viewport: 'width=device-width, initial-scale=1.0, maximum-scale=5.0',
 }
 
 export default function RootLayout({
