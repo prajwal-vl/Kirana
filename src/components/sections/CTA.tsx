@@ -22,7 +22,7 @@ export default function CTA() {
           </Link>
         </div>
         <p className={styles.note}>
-          Available on Android &amp; iOS · Works offline · Hindi supported
+          Available on Android &amp; iOS · Works offline · Multi-Language supported
         </p>
       </div>
     </section>
