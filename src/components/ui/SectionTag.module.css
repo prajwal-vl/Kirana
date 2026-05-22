@@ -1,0 +1,13 @@
+.tag {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--saffron);
+  margin-bottom: 16px;
+}
+
+.light {
+  color: rgba(255, 255, 255, 0.5);
+}

@@ -1,0 +1,154 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phoneFrame {
+  width: 280px;
+  height: 560px;
+  background: var(--navy);
+  border-radius: 40px;
+  padding: 16px;
+  position: relative;
+  box-shadow: 0 40px 80px rgba(15, 27, 45, 0.25), inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.notch {
+  width: 80px;
+  height: 24px;
+  background: var(--navy);
+  border-radius: 0 0 16px 16px;
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.screen {
+  background: var(--cream);
+  border-radius: 28px;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.topBar {
+  background: var(--saffron);
+  padding: 20px 16px 16px;
+}
+
+.topRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.storeName {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.date {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 10px;
+}
+
+.totalLabel {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 10px;
+}
+
+.total {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.items {
+  flex: 1;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item {
+  background: var(--white);
+  border-radius: 10px;
+  padding: 10px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--border);
+}
+
+.itemName {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--navy);
+}
+
+.itemQty {
+  font-size: 10px;
+  color: var(--muted);
+}
+
+.itemPrice {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--saffron);
+}
+
+.scanBtn {
+  margin: 8px 12px 12px;
+  background: var(--navy);
+  color: #fff;
+  border-radius: 10px;
+  padding: 12px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+/* Floating badges */
+.floatBadge {
+  position: absolute;
+  background: var(--green);
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 11px;
+  font-weight: 700;
+  box-shadow: 0 4px 16px rgba(26, 122, 74, 0.3);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  z-index: 10;
+}
+
+.left {
+  left: -72px;
+  top: 140px;
+}
+
+.right {
+  right: -82px;
+  bottom: 160px;
+}
+
+.badgeSub {
+  font-weight: 400;
+  opacity: 0.8;
+  font-size: 10px;
+  margin-top: 2px;
+}
