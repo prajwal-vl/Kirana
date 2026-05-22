@@ -52,7 +52,7 @@ export default function Features() {
           <br /> nothing it doesn&apos;t.
         </h2>
         <p className={styles.sub}>
-          Built specifically for Indian kirana stores. Works offline. Supports Hindi
+          Built specifically for Indian kirana stores. Works online. Supports Multi-Language System
           product names.
         </p>
 
