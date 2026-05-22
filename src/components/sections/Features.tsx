@@ -12,7 +12,7 @@ const FEATURES = [
     num: '01 — SCANNING',
     title: 'Scan barcodes in under a second',
     desc: 'Point your phone camera at any product barcode or QR code. Kirana instantly fetches the product name, price, and GST details — no typing needed.',
-    pills: ['Phone camera', 'Auto price lookup', 'Manual entry fallback', 'Works offline'],
+    pills: ['Phone camera', 'Auto price lookup', 'Manual entry fallback', 'Works online easily'],
     Visual: BarcodeVisual,
     reverse: false,
   },
