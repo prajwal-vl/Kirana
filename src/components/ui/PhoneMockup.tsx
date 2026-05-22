@@ -20,7 +20,7 @@ export default function PhoneMockup() {
           {/* Top bar */}
           <div className={styles.topBar}>
             <div className={styles.topRow}>
-              <span className={styles.storeName}>Sharma General Store</span>
+              <span className={styles.storeName}>My Kirana Store</span>
               <span className={styles.date}>22 May 2026</span>
             </div>
             <div className={styles.topRow} style={{ marginTop: 8 }}>
